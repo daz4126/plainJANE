@@ -24,6 +24,12 @@ body {
   background: $light;
 }
 
+header{
+  border-bottom: 3px solid $red;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
 #logo{
   font-family: $heading;
   display: block;
