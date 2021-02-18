@@ -93,6 +93,12 @@ header{
 footer{
   color: $dark-text;
   font: 1rem monospace;
+  a{
+    color: $blue;
+  &:visited{
+    color: $green;
+  }
+  }
 }
 
 
