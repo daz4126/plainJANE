@@ -1,6 +1,6 @@
-$red: #9d3f33;
+$red: #99544b;
 $green: #44a675;
-$blue: #004c6b;
+$blue: #10678a;
 $yellow: #eedf62;
 $grey: #ccc;
 $light: #faf9c9;
@@ -28,7 +28,7 @@ body {
 }
 
 header{
-  border-bottom: 3px solid $red;
+  border-bottom: 2px dotted $red;
   margin-bottom: 20px;
   padding-bottom: 8px;
 }
@@ -58,14 +58,14 @@ header{
   list-style: none;
   text-align: center;
   li{
-    border-bottom: solid 2px $green;
+    border-bottom: dotted 1px $green;
     padding-bottom: 10px;
     margin-bottom: 20px;
   }
   h1{
   color: $blue;
   font-family: $heading;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   margin: 0;
     a{
     text-decoration: none;
@@ -84,7 +84,7 @@ header{
     margin: 0;
   }
   p{
-    font: 1rem monospace;
+    font: 1.1rem monospace;
     color: #444;
     text-align: left;
   }
