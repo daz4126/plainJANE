@@ -42,12 +42,12 @@ header{
     color: $yellow;
     font-size: 3.6rem;
     transform: rotate(-6deg) translate(-6px,10px);
-    text-shadow: 2px 2px 3px #222;
+    text-shadow: 1px 1px 2px $red;
   }
   h2{
     color: $green;
     font-size: 2.4rem;
-    text-shadow: 1px 1px #222;
+    text-shadow: 1px 1px $blue;
     transform: rotate(-3deg) translate(0,-6px);
   }
 }
@@ -58,7 +58,7 @@ header{
   list-style: none;
   text-align: center;
   li{
-    border-bottom: solid 1px $green;
+    border-bottom: solid 2px $green;
     padding-bottom: 10px;
     margin-bottom: 20px;
   }
@@ -92,8 +92,9 @@ header{
 
 footer{
   color: $dark-text;
-  font: 1rem monospace;
-  padding-top: 30px;
+  font: 0.9rem monospace;
+  text-align: center;
+  padding: 20px 0;
   a{
     color: $blue;
   &:visited{
