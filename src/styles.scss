@@ -8,7 +8,7 @@ $dark: #232323;
 $light-text: #ddd;
 $dark-text: #444;
 // fonts
-$heading: 'Chicle', cursive;
+$heading: 'Chicle';
 
 body *,
 body::before,
@@ -42,7 +42,7 @@ header{
     color: $yellow;
     font-size: 3.6rem;
     transform: rotate(-6deg) translate(-6px,10px);
-    text-shadow: 1px 1px 2px $red;
+    text-shadow: 1px 1px 2px $red, -1px -1px 2px $red;
   }
   h2{
     color: $green;
