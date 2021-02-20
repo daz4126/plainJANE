@@ -1,14 +1,5 @@
-$red: #99544b;
-$green: #44a675;
-$blue: #10678a;
-$yellow: #eedf62;
-$grey: #ccc;
-$light: #faf9c9;
-$dark: #232323;
-$light-text: #ddd;
-$dark-text: #444;
-// fonts
-$heading: 'Chicle';
+@import "variables";
+@import "responsive";
 
 body *,
 body::before,
@@ -47,7 +38,7 @@ header{
   h2{
     color: $green;
     font-size: 2.4rem;
-    text-shadow: 1px 1px $blue;
+    text-shadow: 3px 3px $blue;
     transform: rotate(-3deg) translate(0,-6px);
   }
 }
@@ -64,6 +55,7 @@ header{
   }
   h1{
   color: $blue;
+  text-shadow: 3px 3px $yellow;
   font-family: $heading;
   font-size: 2.4rem;
   margin: 0;
